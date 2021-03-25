@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { IoMdCut } from 'react-icons/io'
 import { FaBars, FaTimes, } from 'react-icons/fa'
 import { Button } from './Button'
 import './Navbar.css'
