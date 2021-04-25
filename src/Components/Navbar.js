@@ -49,20 +49,15 @@ function Navbar() {
                                     Services
                                 </Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link to='/about' className="nav-links" onClick={closeMobileMenu}>
-                                    About
-                                </Link>
-                            </li>
                             <li className='nav-btn'>
                                 {button ? (
-                                    <a href='https://mominfadez.setmore.com/' target='_blank' className="btn-link" onClick={closeMobileMenu}>
+                                    <Link to='/book' className="btn-link" onClick={closeMobileMenu}>
                                         <Button buttonStyle='btn--outline'>Book Now</Button>
-                                    </a>
+                                    </Link>
                                 ) : (
-                                    <a href='https://mominfadez.setmore.com/' target='_blank' className="btn-link" onClick={closeMobileMenu}>
+                                    <Link to='/book' className="btn-link" onClick={closeMobileMenu}>
                                         <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>Book Now</Button>
-                                    </a>
+                                    </Link>
                                 )}
                             </li>
                         </ul>
