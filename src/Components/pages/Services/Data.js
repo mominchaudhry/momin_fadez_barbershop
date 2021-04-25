@@ -20,7 +20,7 @@ export const beard = {
     description:'Includes beard fade, line-up, shape-up, or full-shave',
     buttonLabel:'Book Now',
     imgStart:'',
-    img:'images/IMG_0837.jpg',
+    img:'images/IMG_1113.jpg',
     alt:'Beard'
 }
 
@@ -33,6 +33,6 @@ export const fullService = {
     description:'Includes haircut, beard, and eyebrows',
     buttonLabel:'Book Now',
     imgStart:'start',
-    img:'images/IMG_1113.jpg',
+    img:'images/IMG_0837.jpg',
     alt:'Haircut'
 }
