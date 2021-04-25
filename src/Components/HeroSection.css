@@ -95,6 +95,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .heading {
+    font-size: 40px;
+  }
+
   .container {
     padding-right: 30px;
     padding-left: 30px;
@@ -102,6 +106,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
   .home__hero-text-wrapper {
     padding-bottom: 65px;
   }
