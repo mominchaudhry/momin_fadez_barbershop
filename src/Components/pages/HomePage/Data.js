@@ -1,3 +1,16 @@
+export const homeObjZero = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine:'',
+    headline:'Momin Fadez Barbershop',
+    description:'Momin Fadez is an exclusive barbershop located in Richmond Hill, Ontario, Canada. Owned and operated by Momin Chaudhry (Founder) since 2020. My goal is to provide more than a haircut, but an experience. From a detailed consultation to the final result, you will leave looking and feeling like your best self.',
+    buttonLabel:'Book Now',
+    imgStart:'',
+    img:'images/logo_white_background.jpg',
+    alt:'Haircut'
+}
+
 export const homeObjOne = {
     lightBg: false,
     lightText: true,
