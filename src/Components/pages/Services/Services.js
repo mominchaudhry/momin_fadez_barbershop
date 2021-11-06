@@ -1,13 +1,15 @@
 import React from 'react'
 import HeroSection from '../../HeroSection'
-import {haircut, beard, fullService} from './Data'
+import {haircut, beard, fullService, cleanup} from './Data'
 
 function Services() {
     return (
         <>
-            <HeroSection {...haircut} />
-            <HeroSection {...beard} />
             <HeroSection {...fullService} />
+            <HeroSection {...haircut} />
+            <HeroSection {...cleanup} />
+            <HeroSection {...beard} />
+            
         </>
     )
 }

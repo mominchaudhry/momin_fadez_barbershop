@@ -1,14 +1,40 @@
-export const haircut = {
+export const fullService = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine:'Fresh cuts to keep you looking your best',
-    headline:'HAIRCUT - $20',
-    description:'Includes all types of styles (styling on request)',
+    topLine:'Pamper yourself with the Momin Fadez Package',
+    headline:'FULL SERVICE - $35',
+    description:'Includes full haircut, beard, and eyebrows',
     buttonLabel:'Book Now',
     imgStart:'start',
+    img:'images/IMG_0837.jpg',
+    alt:'FULL SERVICE'
+}
+
+export const haircut = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine:'Fresh cuts to keep you looking your best',
+    headline:'HAIRCUT - $30',
+    description:'Includes full haircut, all types of styles',
+    buttonLabel:'Book Now',
+    imgStart:'',
     img:'images/IMG_0777.jpg',
-    alt:'Haircut'
+    alt:'HAIRCUT'
+}
+
+export const cleanup = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine:'Just need to cleanup the sides and back?',
+    headline:'FADE/CLEANUP - $25',
+    description:'Includes haircut, sides only',
+    buttonLabel:'Book Now',
+    imgStart:'start',
+    img:'images/IMG_1706.jpg',
+    alt:'FADE/CLEANUP'
 }
 
 export const beard = {
@@ -21,18 +47,5 @@ export const beard = {
     buttonLabel:'Book Now',
     imgStart:'',
     img:'images/IMG_1113.jpg',
-    alt:'Beard'
-}
-
-export const fullService = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine:'Pamper yourself with the Momin Fadez Package',
-    headline:'FULL SERVICE - $25',
-    description:'Includes haircut, beard, and eyebrows',
-    buttonLabel:'Book Now',
-    imgStart:'start',
-    img:'images/IMG_0837.jpg',
-    alt:'Haircut'
+    alt:'BEARD'
 }
