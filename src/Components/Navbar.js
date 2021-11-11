@@ -6,8 +6,7 @@ import './Navbar.css'
 import { IconContext } from 'react-icons/lib'
 import image1 from '../white_logo_transparent_background.png';
 
-function Navbar() {
-    const [click, setClick] = useState(false)
+function Navbar({click, setClick}) {
     const [button, setButton] = useState(true)
 
     const handleClick = () => setClick(!click)
